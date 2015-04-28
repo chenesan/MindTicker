@@ -39,13 +39,17 @@ Once the timer alert, it will ask you what's your intention right now again. If 
 
 ##TODO
 
+Any contibution is welcomed. It's great if you can report bug, suggest some features or send a pull request.
+
+Besides I'm new to javascript, so if the code has some bad style or usage, please tell me!
+
 So far(4.28.2015) it's still a prototype. In the short run there are some needs:
 
 1. It's easy to turn off the alert. To do this the user just need to press "enter" twice. We need to let it hard to be neglected.
 
 2. A better UI make people be more conscious about what they are doing and what's they really want to do.
 
-In the long run I would like to make it more intelligent. We may need some research on what's the typical behavior when people miss in the Internet. Once we get some empirical rules, we can put them into MindTicker.
+In the long run I would like to make it more intelligent. We need some research on what's the typical behavior when people miss in the Internet. Once we get some empirical rules, we can put them into MindTicker. Even more, we can make MindTicker learn that what time the user will be distracted by tracking user's behavior and the extent of distraction.
 
 ##License
 MIT
