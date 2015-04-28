@@ -1,0 +1,32 @@
+{
+    "StartupGoalRequire" :{
+	"message": "Why do you use Internet right now?",
+	"description": "The requirement for goal when starting Chrome."
+    },
+    
+    "MiddleGoalRequire" :{
+	"message": "Why do you use Internet right now?",
+	"description": "The requiremnt for goal during using Chrome."
+    },
+
+    "GoalDiffCheck" :{
+	"message": "Are you sure to change your intention from %s to %s ? If you're distracted, clicking cancel will close the current page.",
+	"description": "The checking for goal when the new goal is different from previous goal."
+    },
+
+    "GoalNotificationTitle" :{
+	"message": "Your intention RIGHT NOW",
+	"description": "The title of notification of goal."
+    },
+
+    "BrowserActionText" :{
+	"message":"The MindTicker will alarm you every %s minutes.\n",
+	"description": "The content text of browser action, the '%s' will be filled in the period of timer"
+    },
+
+    "TimerSettingPrompt" :{
+	"message": "Please reset the timer (in mins)",
+	"description": "The indication to reset timer in prompt"
+    }
+
+}

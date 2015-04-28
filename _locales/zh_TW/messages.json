@@ -1,0 +1,39 @@
+{
+    "StartupGoalRequire" :{
+	"message": "此時此刻，你為什麼使用網路？",
+	"description": "The requirement for goal when starting Chrome."
+    },
+    
+    "MiddleGoalRequire" :{
+	"message": "此時此刻，你為什麼使用網路？",
+	"description": "The requiremnt for goal during using Chrome."
+    },
+
+    "GoalDiffCheck" :{
+	"message": "你確定要將意圖由 %s 改為 %s ？\n如果你分心了，按取消將關閉你正在閱讀的頁面。",
+	"description": "The checking for goal when the new goal is different from previous goal."
+    },
+
+    "GoalNotificationTitle" :{
+	"message": "你當下的意圖",
+	"description": "The title of notification of goal."
+    },
+
+    "BrowserActionText" :{
+	"message": "MindTicker每 %s 分鐘會響鈴，提醒你當下的意圖<br><br>",
+	"description": "The content text of browser action, the '%s' will be filled in the period of timer"
+    },
+
+    "TimerSettingButtonText" :{
+	"message": "響鈴時間設定",
+	"description": "The TimerSetting Button Text"
+    },
+    
+    "TimerSettingPrompt" :{
+	"message": "請重設響鈴時間(單位:分鐘)",
+	"description": "The indication to reset timer in prompt"
+    }
+
+
+	
+}

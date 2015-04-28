@@ -1,0 +1,28 @@
+{
+    "name": "MindTicker",
+    "version": "1.0",
+    "manifest_version": 2,
+    
+    "permissions": [
+	"notifications",
+	"alarms",
+	"tabs",
+	"storage"
+    ],
+    
+    "background": {
+	"scripts": ["goalalarm.js","notification.js"],
+	"persistent":false
+    },
+
+    "browser_action": {
+	"default_icon": "img/goal.png",
+	"default_popup": "popup.html"
+    },
+
+    "web_accessible_resources": [
+	"img/goal.png"
+    ],
+
+    "default_locale": "en"
+}
