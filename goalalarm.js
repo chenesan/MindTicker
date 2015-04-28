@@ -1,5 +1,5 @@
 var initalarmname=Date.now().toString();
-var initalarmperiod=1;
+var initalarmperiod=10;
 
 function sprintf(format)
 {
@@ -48,7 +48,7 @@ function resetalarmmsgcallback(msg, sender, sendresponse)
 {
     if(msg=="ResetTimer"){
 	do{
-            var newperiod=prompt(chrome.i18n.getMessage("TimerSettingPrompt"),"20");
+            var newperiod=prompt(chrome.i18n.getMessage("TimerSettingPrompt"),"10");
 	}while(isNaN(newperiod));
 
 	chrome.storage.local.set({"alarmperiod":parseInt(newperiod)},function(){
