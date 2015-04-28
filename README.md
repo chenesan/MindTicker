@@ -10,8 +10,8 @@ Ideally, The user don't need to set anything, just install and load MindTicker. 
 
 To put it simply, MindTicker should be:
 
-+Simple(No setting)
-+Able to learn the distraction sign of the user
++  Simple(No setting)
++  Able to learn the distraction sign of the user
 
 ##How to install
 
@@ -40,7 +40,9 @@ Once the timer alert, it will ask you what's your intention right now again. If 
 ##TODO
 
 So far(4.28.2015) it's still a prototype. In the short run there are some needs:
+
 1. It's easy to turn off the alert. To do this the user just need to press "enter" twice. We need to let it hard to be neglected.
+
 2. A better UI make people be more conscious about what they are doing and what's they really want to do.
 
 In the long run I would like to make it more intelligent. We may need some research on what's the typical behavior when people miss in the Internet. Once we get some empirical rules, we can put them into MindTicker.
