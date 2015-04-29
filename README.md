@@ -6,12 +6,7 @@ It's a simple tool to remind the user to pay attention to their goal/intention i
 
 There are a dozen of tools to keep us from distraction when using Internet (Ban the sites you consuming lots of time on, TODO List reminder...). These tools are great, but usually their settings are so complicated that I'm lazy to do them... So I tried to make a small, almost-no-setting tool to do this.
 
-Ideally, The user don't need to set anything, just install and load MindTicker. Then MindTicker should be able to remind them to pay attention to what they really do when the users are distracted. (You might ask HOW to know whether the user need the alert. I think there should exist some regular behavior modes when the user miss in the Internet. If we can collect the data about how the user surf the Internet and find what behaviors are the signs that the user may be distracted, then we get it......Of course so far MindTicker is almost just a timer, there's a long long way from this.)
-
-To put it simply, MindTicker should be:
-
-+  Simple(No setting)
-+  Able to learn the distraction sign of the user
+Ideally, The user don't need to set anything, just install and load MindTicker. Then MindTicker should be able to remind them to pay attention to what they really do when the users are distracted. (You might ask HOW to know whether the user needs the alert. I think there should exist some behavior modes when the user misses in the Internet. If we can know how the user surf the Internet and find what behaviors are the signs showing that the user may be distracted, then we get it......Of course so far MindTicker is almost just a timer, there's a long long way from this.)
 
 ##How to install
 
@@ -49,7 +44,7 @@ So far(4.28.2015) it's still a prototype. In the short run there are some needs:
 
 2. A better UI make people be more conscious about what they are doing and what's they really want to do.
 
-In the long run I would like to make it more intelligent. We need some research on what's the typical behavior when people miss in the Internet. Once we get some empirical rules, we can put them into MindTicker. Even more, we can make MindTicker learn that what time the user will be distracted by tracking user's behavior and the extent of distraction.
+In the long run I would like to make it more intelligent. We need some research on what's the typical behavior when people miss in the Internet. Once we get some empirical rules, we can put them into MindTicker.
 
 ##License
 MIT
